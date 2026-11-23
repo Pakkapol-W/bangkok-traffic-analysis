@@ -1,0 +1,31 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# --- Generated outputs ---
+# Produced by code.py; regenerate instead of committing
+traffic_master_data_final.csv
+merged_dataset.csv
+cleaned_dataset.csv
+*.png
+
+# Excel lock/temp files
+~$*.xlsx
+
+# --- OS / editor ---
+desktop.ini
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
